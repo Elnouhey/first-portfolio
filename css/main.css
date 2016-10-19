@@ -1,0 +1,477 @@
+/*
+
+Code written by Mahmoud Elnouhey 2016
+
+Email sendbad1213@gmail.com
+
+*/
+h1,h2,h3,h4,h5,h5{
+    font-family: 'Passion One', cursive;
+    margin:0 ;
+    padding: 0;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.upper{
+    text-transform: uppercase;
+}
+.navbar{
+    min-height:77px;
+    margin-bottom: 0;
+    border-radius: 0;
+    
+}
+.navbar-inverse {
+    background-color: #2c2c2e;
+}
+.navbar-header{
+    height:77px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+    height: auto;
+    padding: 10px 0;
+   
+    margin-left: 15px;
+}
+
+
+.navbar-right{
+    margin-right: 20px;
+}
+
+
+.navbar-nav>li>a{
+    padding-top: 28px;
+    padding-bottom:28px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.navbar-toggle {
+    padding: 18px 10px;
+    margin-right:25px;
+}
+.navbar-toggle .icon-bar {
+    width:30px;
+    height:4px;
+}
+/*............................. end navBar..................................*/
+
+/*...............................start banner.........................*/
+.banner{
+    background-image: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 79px);
+    -webkit-height: calc(100vh - 79px);
+    -moz-height: calc(100vh - 79px);
+    -o-height: calc(100vh - 79px);
+    position: relative;
+}
+.heading{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.title-wrape{
+    text-align: center;
+    width: 81vw;
+}
+.title{
+    font-size: 4.2vw ;
+    font-weight: 900 ;
+    color: #ECCD9A ;
+    letter-spacing: 0.05em ;
+   }
+.title span{
+    display: inline-block ;
+    padding: 0.2em 0.5em ;
+    border: 10px solid #ECCD9A ;
+}
+.kicker {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.3vw ;
+    font-weight: 700 ;
+    margin-top:25px;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1 ;
+}
+.goal{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ff0016;
+    line-height: 1.4;
+    letter-spacing: .1em;
+}
+.cat {
+    position: absolute;
+    bottom: 0;
+    left: 50% ;
+    margin-left:-30px;
+    text-align: center ;
+    cursor: pointer ;
+}
+/*...............................end banner............................*/
+.fasel{
+    margin:10px auto;
+    width:305px;
+    height:27px;
+}
+.fasel img{
+    width: 100%;
+    height:100%;
+}
+/*...............................Start about-me............................*/
+.about-me{
+    background: url('../images/bg1.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    padding-top:20px;
+    position: relative;
+    overflow: hidden;
+}
+.about-me h1 {
+    color:#ECCD9A;
+    font-weight: 900;
+    padding-bottom:20px;
+    font-size:45px;
+    letter-spacing: 0.1em;
+}
+.about-me .mahmoud h2{
+    color:#ECCD9A;
+    font-weight: 900;
+    padding-bottom:20px;
+    letter-spacing: 0.1em;
+}
+.about-me .jaine h2{
+    color:#ECCD9A;
+    font-weight: 900;
+    padding-bottom:30px;
+    letter-spacing: 0.1em;
+}
+.progress{
+    height:30px;
+    margin-bottom:30px;
+}
+.progress-bar{
+    font-size:15px;
+    line-height:30px;
+}
+.about-me .lead{
+    line-height:2.3;
+  }
+.about-me .ana {
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.ana .bird1 {
+    display: block;
+    width: 100%;
+    height:80px;
+    overflow: hidden;
+    position: absolute;
+    -webkit-animation: ana 60s linear infinite;
+    animation: ana 60s linear infinite;
+}
+.ana span {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+@-webkit-keyframes ana {
+    0% { right: 0 ; }
+    10% {top:0%;}
+    20% { top: 5%; }
+    30% { top: 10%; }
+    40% { top: 0%; }
+    0% { top: 60%; }
+    0% { top: 70%; }
+    0% { top: 80%; }
+    0% { top: 90%; }
+    0% { top: 95%; }
+    100% { right: -100%; top:100%; }
+}
+.about-me .bird{
+    display: block;
+    width: 200%;
+    height: 50px;
+    position: absolute;
+    overflow: hidden;
+    -webkit-animation: marquee 60s linear infinite;
+    animation: marquee 60s linear infinite;
+}
+.about-me .bird span {
+    float: right;
+    width: 50%;
+}
+
+@-webkit-keyframes marquee {
+    0% { left: 0 ; }
+    10% {top:20%;}
+    0% { top: 35%; }
+    0% { top: 40%; }
+    0% { top: 50%; }
+    0% { top: 60%; }
+    0% { top: 70%; }
+    0% { top: 80%; }
+    0% { top: 90%; }
+    0% { top: 95%; }
+    100% { left: -100%; top:100%; }
+}
+
+/*................................. start my work......................*/
+.my-work h2{
+    color:#ECCD9A;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.my-work p{
+    font-weight:900;
+    font-family: ;
+    color:#5bc0de;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+.img-width{
+    height:700px;}
+.img-width{
+    width:100%;
+    height:700px;
+}
+
+.carousel-indicators li{
+    border: 2px solid #0e0e0e;
+}
+
+.carousel-indicators .active{
+    background-color:#d6730a;
+}
+.carousel-caption{
+    color: black;
+    font-weight:700;
+    font-size: 20px;
+    font-family: ;
+}
+/*................................. End my work......................*/
+
+/*................................. Start can do......................*/
+.can-do{
+    overflow:hidden;
+    
+}
+.img-responsive{
+    width:100%;
+    height:100%;
+}
+.i-do{
+    
+    max-width: 466px;
+    margin:20px auto;
+}
+
+.can-do .row{
+    background: url('../images/bg1.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.borders{
+    
+}
+.can-do i{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#39bae0;
+}
+.can-do h3{
+    color:#ECCD9A;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.can-do .try{
+    text-align:left;
+    line-height:2;
+    border:2px solid #39bae0;
+    padding: 15px;
+    
+}
+
+/*................................. End can do ......................*/
+
+/*................................. start contact......................*/
+.contact-me{
+    background: url('../images/bg1.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.contact-me h2{
+    color:#ECCD9A;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-me p{
+    font-weight:700;
+    padding-bottom: 30px;
+}
+.contact-me h3{
+    color:black;
+    font-weight: 900;
+}
+.contact-me span{
+    color:#26a6d1;
+}
+.socials {
+    line-height: 2
+}
+.socials img{
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.socials a{
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    font-size:20px;
+    font-weight:700;
+    
+}
+.socials a:nth-child(2){
+    color: #3b5998;
+}
+.socials a:nth-child(4){
+    color: #26a6d1;
+}
+.socials a:nth-child(6){
+    color: #0e76a8;
+}
+
+/*................................. End contact......................*/
+.footer{
+    background: black;
+    
+    
+}
+.footer .fantasy{
+    width:100%;
+    height:28px;
+}
+.footer .fantasy img{
+    width:100%;
+    height:28px;
+}
+.decor{
+    margin-bottom: 30px;
+}
+.footer .foot{
+    margin-top:33px;
+    
+}
+.footer h4{
+    color:#ECCD9A;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+    font-weight:900;
+    font-size: 25px;
+}
+.footer .map{
+    overflow: hidden;
+}
+.footer .map li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family:;
+    font-size:16px;
+    
+}
+.footer .map li{
+    float: left;
+    margin-right: 10px;
+    opacity: 0.4;
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.footer .map li:hover{
+    opacity: 1
+}
+.footer .follow {
+    overflow: hidden;
+   
+}
+.footer .follow li{
+    float: left;
+    margin-right: 6px;
+    opacity: 0.4;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.footer .follow li:hover{
+    opacity: 1
+}
+.footer .copyrights{
+    background: #333;
+    color: white;
+    padding: 10px 0 ;
+    font-size:18px;
+    font-family:;
+}
+.footer .copyrights span{
+    color:#ECCD9A;
+    font-weight: 900;
+    font-family: ;
+}
+/*............................ End footer.........................*/
+/*............................ start mediaQ.........................*/
+@media only screen and (max-width: 768px){
+   
+    .title{
+        font-size: 33px ;
+        margin-bottom: 20px ;
+
+    }
+    .title span{
+       border: 7px solid #ECCD9A ;
+    }
+    .kicker {
+       font-size: 23px ;
+        line-height: 1 ;
+    }
+ 
+    
+    
+}
+/*...................................480........................*/
+@media only screen and (max-width: 486px){
+    .title{
+        font-size: 25px ;
+        margin-bottom: 0px ;
+
+    }
+    .title span{
+        border: 4px solid #ECCD9A ;
+    }
+    .kicker {
+        font-size: 17px ;
+        line-height: 1 ;
+    }
+    .my-work{
+        display:none;
+    }
+    .not-fasel{
+        display:
+    }
+    
+    .socials{
+        padding-top:20px;
+    }
+}
+/*............................ End mediaQ.........................*/
